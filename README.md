@@ -14,7 +14,7 @@ To test add new event (POST), simply run the following command:
 ```
  curl -X POST \
  -H "Content-Type: application/json" \
- -d '{"info": "Shark embedded in the gums rather than directly affixed to the jaw, and are constantly replaced throughout life.", "source": "https://en.wikipedia.org/wiki/Shark"}'\
+ -d '{"id": 1, "info": "Shark embedded in the gums rather than directly affixed to the jaw, and are constantly replaced throughout life.", "source": "https://en.wikipedia.org/wiki/Shark"}'\
  -s http://localhost:3000/facts
 ```
 
